@@ -8,4 +8,4 @@ def octree_quantize_image(input_path, output_path, max_colors):
     print(f"Quantized image saved to: {output_path}")
 
 max_colors = int(input("Enter maximum number of colors (e.g., 256): "))
-octree_quantize_image("input_image.jpg", "out.png", max_colors)
+octree_quantize_image("D:\VS Code\MMP\image.jpg", "D:\VS Code\MMP\octree_output.png", max_colors)
