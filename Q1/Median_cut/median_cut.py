@@ -8,4 +8,4 @@ def median_cut_quantize(input_path, output_path, num_colors):
     print("Saved quantized image:", output_path)
 
 num_colors = int(input("Enter No of colors to quantize: "))
-median_cut_quantize("input.jpg", "output_median_cut.jpg", num_colors)
+median_cut_quantize("D:\VS Code\MMP\image.jpg", "D:\VS Code\MMP\median_output.jpg", num_colors)
