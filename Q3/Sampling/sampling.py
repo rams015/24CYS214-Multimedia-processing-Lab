@@ -1,7 +1,7 @@
 from PIL import Image
 import numpy as np
 
-path = "img.jpg"
+path = "D:\VS Code\MMP\image2.jpg"
 
 img_gray = Image.open(path).convert("L")
 img_rgb  = Image.open(path).convert("RGB")
