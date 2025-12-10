@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import math
 
-path = r"D:/VS Code/MMP/Q5/bf_input.jpg"
+path = r"D:/VS Code/MMP/Q5/Torgya - Arunachal Festival.jpg"
 
 img = cv2.imread(path)
 img = img.astype(np.float32) 
